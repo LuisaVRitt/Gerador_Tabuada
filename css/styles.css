@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    padding: 1rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #db4444 0%, #3f24dd 98%);
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+form{
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 15px auto;
+    width: 600px;
+}
+
+#multiplication-form {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 1rem auto;
+}
+
+.operation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;   
+}
+
+.operation-form label{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.operation-form  input{
+    flex: 1;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 0.6rem 0.4rem;
+    text-align: center;
+}
+
+#multiplication-form  input[type="number"] {
+    max-height: 25px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+#multiplication-form  input[type="submit"] {
+    max-height: 50px;
+    padding: 10px;
+    line-height: 25px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#multiplication-form  input[type="submit"]:hover {
+    background-color: #454545;
+}
+
+#multiplication-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 1rem auto;
+    max-width: 300px;
+    padding: 2rem 1rem;
+    color: #333;
+}
+
+#multiplication-operations .row{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+#multiplication-operations .result {
+    margin-left: 0.4rem;
+}
+
+#multiplication-operations .row:last-child{
+    border-bottom: 1px solid #ccc;
+}
