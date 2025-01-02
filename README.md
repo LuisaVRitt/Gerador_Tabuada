@@ -1,0 +1,1 @@
+Estes projeto consiste no usuário digitar o número que será multiplicado e o número limite de multiplicações (de modo crescente, apartir do 1), e em resposta, é apresentado a tabuada gerada de tal número escolhido.
